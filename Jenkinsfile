@@ -10,7 +10,7 @@ node{
    stage('Compile-Package-create-war-file'){
       // Get maven home path
 
-      bat "${mvnHome}/bin/mvn package"
+      bat "${mvnHome}/bin/mvn clean package"
       }
 /*   stage ('Stop Tomcat Server') {
                bat ''' @ECHO OFF
