@@ -5,7 +5,7 @@ node{
    def mvnHome = 'C:\\maven'
    def tomcatStatus = ''
    stage('SCM Checkout'){
-     git 'https://github.com/mnreddy69/JenkinsWar.git'
+     git 'https://github.com/mnreddy69/JenkinsWar'
    }
    stage('Compile-Package-create-war-file'){
       // Get maven home path
